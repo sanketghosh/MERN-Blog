@@ -1,0 +1,40 @@
+/* header div  */
+
+.header {
+  margin-top: 60px;
+}
+
+/* two header titles div  */
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+}
+
+/* small header  */
+
+.headerTitleSmall {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+/* large header  */
+
+.headerTitleLarge {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+}
+
+/* header image  */
+
+.headerImage {
+  width: 100%;
+  height: 490px;
+  margin-top: 60px;
+  object-fit: cover;
+}

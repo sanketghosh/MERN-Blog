@@ -1,0 +1,33 @@
+.aboutus-div {
+  background: linear-gradient(45deg, #b56d02, #d45500);
+  height: 100vh;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.aboutus-title {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 43px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding: 10px;
+  margin-top: 24px;
+}
+
+.details-label {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.details-text {
+  font-size: 17px;
+  text-align: left;
+}

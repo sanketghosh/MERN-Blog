@@ -1,0 +1,75 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(45deg, #d13939, #d89f00);
+}
+
+.register-title {
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 600;
+  align-self: center;
+}
+
+.registerForm {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+.registerForm > label {
+  margin-top: 27px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.registerForm > input {
+  width: 330px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  color: aliceblue;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ffffff87;
+}
+.registerForm > input:focus {
+  outline: none;
+}
+
+.register-button {
+  margin-top: 36px;
+  border: none;
+  width: 180px;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 6px 13px;
+  margin-bottom: 17px;
+  border-radius: 3px;
+  background-color: #4c4ceb;
+  color: #f4f4f4;
+}
+.register-button:hover {
+  background-color: #3838ea;
+}
+.register-login-button {
+  border: none;
+  width: 120px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 18px;
+  background-color: #e7e6e6;
+  color: #252525;
+  position: absolute;
+  bottom: 85%;
+  right: 1%;
+  border-radius: 3px;
+}
+.register-login-button:hover {
+  background-color: #dfdfdf;
+}

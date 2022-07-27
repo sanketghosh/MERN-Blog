@@ -1,0 +1,120 @@
+/* whole settings container  */
+
+.settings {
+  display: flex;
+}
+
+/* settingsWrapper container : just a wrapper */
+.settingsWrapper {
+  flex: 9;
+  padding: 20px;
+}
+
+/* settings titles */
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* update account title  */
+.settingsUpdateTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: #444;
+  margin: 14px 0px;
+}
+/* delete account title  */
+.settingsDeleteTitle {
+  background-color: #f8f8f8;
+  padding: 4px 9px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #e33434;
+  font-weight: 600;
+}
+
+/* settings form  */
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/* user prof pic in settings div  */
+.userProfPic {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* the pic  */
+.userProfPic > img {
+  height: 360px;
+  width: 360px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+  border: 2px solid #5c5c5c;
+}
+
+/* icon to add new photo  */
+
+.settingsProfPicIcon {
+  fill: #5c5c5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 18%;
+  left: 32%;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #858484;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* input for that icon  */
+.fileInput {
+  display: none;
+}
+
+.settingsForm > label:first-child {
+  margin-bottom: 20px;
+}
+
+.settingsForm > label {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.settingsForm > input {
+  color: #444;
+  margin: 10px;
+  padding: 15px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #adadad;
+}
+.settingsForm > input:focus {
+  outline: none;
+}
+
+.settingsSubmitButton {
+  width: 180px;
+  border: none;
+  background-color: #277d27;
+  margin: 20px 0px 0px 10px;
+  color: #f1f1f1;
+  padding: 7px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.settingsSubmitButton:hover {
+  background-color: #308d30;
+}

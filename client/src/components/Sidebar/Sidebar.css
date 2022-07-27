@@ -1,0 +1,82 @@
+/* whole sidebar div  */
+
+.sidebar {
+  height: 970px;
+  display: flex;
+  flex: 3;
+  padding: 6px;
+  margin: 20px;
+  background-color: #f3f2f2;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  display: flex;
+  color: #444;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* sidebarItem , i.e same style for 3 items of the sidebar  */
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* sidebarTitle: applicable for all the 3 titles */
+
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 90%;
+  border-top: 1px solid #807e7e;
+  border-bottom: 1px solid #807e7e;
+  font-size: 19px;
+  color: #444;
+  font-weight: 600;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* targeting the image  */
+
+.sidebarItem > img {
+  margin: 15px 0px 10px 0px;
+  width: 330px;
+  border-radius: 3px;
+}
+
+/* targeting the p tag fo 1st sidebar  */
+
+.sidebarItem > p {
+  padding: 30px;
+}
+
+/* sidebar list -> the category list of 2nd sidebarItem   */
+
+.sidebarList {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+/* the every single list item of the sidebar list */
+
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.sidebarListItem:hover {
+  color: #2d2c2c;
+}
+
+/* sidebarsocial div > inside this i've put the navicons component  */
+
+.sidebarSocial {
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}

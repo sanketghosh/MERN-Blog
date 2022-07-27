@@ -1,0 +1,15 @@
+.nav-icons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-icons-div svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 23px;
+  fill: #5c5c5c;
+  cursor: pointer;
+}
+.nav-icons-div svg:hover {
+  fill: #515151;
+}
